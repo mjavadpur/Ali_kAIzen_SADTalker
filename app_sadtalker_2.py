@@ -4,7 +4,7 @@ import gradio as gr
 # Assuming the SadTalker class is correctly defined in src.gradio_demo
 from src.gradio_demo import SadTalker  
 
-def sadtalker_demo(checkpoint_path='/content/kaizen_sadtalker/checkpoints', config_path='/content/kaizen_sadtalker/src/config', warpfn=None):
+def sadtalker_demo(checkpoint_path='/content/Ali_kAIzen_SADTalker/checkpoints', config_path='/content/Ali_kAIzen_SADTalker/src/config', warpfn=None):
 # def sadtalker_demo(checkpoint_path='checkpoints', config_path='src/config', warpfn=None):
     sad_talker = SadTalker(checkpoint_path, config_path, lazy_load=True)
 
